@@ -1,5 +1,15 @@
 # @nomicfoundation/hardhat-verify
 
+## 3.0.1
+
+### Patch Changes
+
+- 0016b57: Fix `ContractInformationResolver` to use optional chaining when accessing compiler output contracts to prevent potential `TypeError` ([#7291](https://github.com/NomicFoundation/hardhat/pull/7291))
+- Updated dependencies [af301a8]
+- Updated dependencies [ddefbff]
+  - hardhat@3.0.4
+  - @nomicfoundation/hardhat-errors@3.0.1
+
 ## 3.0.0
 
 ### Major Changes
